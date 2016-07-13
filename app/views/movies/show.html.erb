@@ -53,12 +53,12 @@
           <% end %>
           </div>
           </div>
+          <br>
+           <%= link_to 'Edit', edit_movie_path(@movie),class: 'btn btn-mini btn-warning' %> |
+           <%= link_to 'Back', movies_path,class: 'btn btn-mini btn-default'%>
       </div>
       </div>
-      </div>
-
-<%= link_to 'Edit', edit_movie_path(@movie) %> |
-<%= link_to 'Back', movies_path %>
+      </div>                
 <script>
     $('.star-rating').raty({
       path: '/assets/',

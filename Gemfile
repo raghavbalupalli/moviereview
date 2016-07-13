@@ -10,6 +10,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'devise', '~> 4.1', '>= 4.1.1'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'angularjs-rails', '~> 1.5', '>= 1.5.6'
 gem 'searchkick', '~> 1.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
